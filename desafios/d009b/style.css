@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+       background-image: radial-gradient(circle, red 10%, yellow 30%, green 60%);
+}
+
+h1 {
+    color: darkred;
+    text-decoration: underline;
+}
+
+h2 {
+    color: darkred;
+}

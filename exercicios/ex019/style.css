@@ -1,0 +1,23 @@
+/* 
+id em html = # em css ( só pode um elemento)
+class em html = . em css (pode vários elementos)
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #A1A1F5;
+}
+
+h1 {
+    color: #424263;
+}
+
+h1#principal {
+    text-align: center;
+    color: white;
+    background-color: #424263;
+}
+
+h2 {
+    color: #6C6CA3;
+}

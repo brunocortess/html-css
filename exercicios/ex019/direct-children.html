@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direct Children</title>
+    <style>
+        /* Primeiro escondemos o conteúdo de p que é diretamente filho da div */
+        div > p {
+            display: none;
+        }
+        /* Depois mostramos o conteúdo oculto ao passar o mouse sobre que está dentro de p que é diremente filho da div */
+        div:hover > p{
+            display: block;
+            background-color: yellow;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Conteúdo Especial</h1>
+    <div>
+        Passe o mouse aqui
+        <p>
+            SURPRESAA!
+        </p>
+    </div>
+    <P>
+        Veja o conteúdo diferente 
+    </P>
+</html>
