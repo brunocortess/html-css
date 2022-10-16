@@ -13,7 +13,7 @@
 
 body {
     font-family: 'Sriracha', cursive;
-    width: 100%;
+    
     
 }
 
@@ -49,12 +49,13 @@ span.maior {
 
 section.normal {
     background-color: white;
-    padding: 60px 0px 100px 30px;
+    padding: 60px 0px 60px 30px;
 }
 
 section.normal > p {
     font-size: 3.5vw;
     line-height: 2em;
+    margin-bottom: 2em;
 }
 
 
@@ -79,6 +80,7 @@ section#imagem2 {
     background: url('../imagens/background002.jpg') no-repeat fixed;
     background-size: cover;
     padding: 60px 0;
+    box-shadow: inset 2px 5px 5px 5px rgba(0, 0, 0, 0.24);
 }
 
 section#imagem2 > p {
