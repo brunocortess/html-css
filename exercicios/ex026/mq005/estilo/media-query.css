@@ -8,15 +8,13 @@
 
     menu {
         display: block;
-        width: 768px;
     }
 
     menu li {
         display: inline-block;
     }
 
-    menu a {
-        
-        background-color: rgb(87, 87, 87);
+    main {
+        width: 768px;
     }
 }
